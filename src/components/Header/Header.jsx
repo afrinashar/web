@@ -1,28 +1,27 @@
+/* eslint-disable react/jsx-no-undef */
  
-import { Navbar } from "react-bootstrap"
+import logo from "../../assets/logo.JPG"
+import {  Navbar, NavDropdown,Nav,Container,Row, Button} from "react-bootstrap"
 const Header = () => {
   return (
-    <><Navbar sticky='top' className="navbar navbar-inverse  bg-dark"><nav className="navbar navbar-inverse">
-    <div className="container-fluid">
-      <div className="navbar-header">
-        <a className="navbar-brand" href="#">SSINTEK</a>
-      </div>
-      <ul className="nav navbar-nav">
-        <li className="active"><a href="#">Home</a></li>
-        <li className="dropdown">
-          <a className="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
-          <span className="caret"></span></a>
-          <ul className="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-    </div>
-  </nav></Navbar></>
+    <>  <Navbar expand="lg"   bg="dark" data-bs-theme="dark" className=" m-0 p-3 top-0 bg-light bg-body-tertiary  ">
+    <Container>
+      <Navbar.Brand  className="mx-5" href="#home"><img src={logo} className=" w-25"></img> </Navbar.Brand>
+      <div className="float-left">  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="me-auto">
+        <NavDropdown  title="ABOUT" id="basic-nav-dropdown">
+            <Row></Row><Row></Row>
+          </NavDropdown>
+          <NavDropdown title="SERVICES" id="basic-nav-dropdown">
+            <Row></Row><Row></Row>
+          </NavDropdown><Nav.Link href="workwithus">WORK WITH US</Nav.Link>
+          <Nav.Link href="events">EVENTS</Nav.Link>
+          <Nav.Link href="blogs">BLOGS</Nav.Link>
+       <Button className="bg-warning  text-dark text-bold border border-light">CONTACT US</Button> </Nav>
+      </Navbar.Collapse></div>
+    </Container>
+  </Navbar></>
   )
 }
 

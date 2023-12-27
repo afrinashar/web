@@ -10,14 +10,15 @@ import ContactUs from './components/dashboard/ContactUs/ContactUs'
 import ItConsulting from './components/dashboard/Services/ItConsulting'
 import Services from './components/dashboard/Blogs/Blogs'
 import WorkWithUs from './components/dashboard/WorkWithUs/WorkWithUs'
+import Dashboard from './Dashboard';
+import Events from './components/dashboard/Events/Events';
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header';
 function App() {
   
   return (
     <>
-    <Header></Header>
-    <h1>app</h1>
+ <Header></Header>
       <Routes>
       <Route exact path="/about "  element={<About/>} />  
       <Route exact path="/leadership "  element={<LeaderShip/>} />  
@@ -26,9 +27,10 @@ function App() {
       <Route exact path="/contactus "  element={<ContactUs/>} />   
       <Route exact path="/itconsulting "  element={<ItConsulting/>} />  
       <Route exact path="/services "  element={<Services/>} />  
-      <Route exact path="/workwithus "  element={<WorkWithUs/>} />  
+      <Route exact path="/careers"  element={<WorkWithUs/>} />  
+      <Route exact path="/events"  element={<Events/>} /> 
         </Routes> 
-        <Footer/>
+        <Footer />
     </>
   )
 }
