@@ -4,7 +4,7 @@ import { Col, Row,Card, Button } from "react-bootstrap"
 
 const LeaderShip = () => {
   return (
-   <>  <Row><Row><h2>Meet the leaders leading Edstem</h2>Success at Edstem is driven by a team of accomplished leaders. Learn more about the individuals lighting our path <Row><Col> <Card style={{ width: '18rem' }}>
+   <>   <Row><Row><h2>Meet the leaders leading Edstem</h2>Success at Edstem is driven by a team of accomplished leaders. Learn more about the individuals lighting our path <Row><Col> <Card style={{ width: '18rem' }}>
    <Card.Img variant="top" src="holder.js/100px180" />
    <Card.Body>
      <Card.Title>Card Title</Card.Title>
@@ -28,7 +28,7 @@ const LeaderShip = () => {
 
 Shape the Future Together!</h3></Col><Col>Ready to code the future?
 
-Join our team of tech enthusiasts and be part of something amazing!</Col><Col><Button className="bg-light text-primary">VIEW LATEST OPENINGS</Button></Col></Row></Row></>
+Join our team of tech enthusiasts and be part of something amazing!</Col><Col><Button className="bg-secondary text-primary">VIEW LATEST OPENINGS</Button></Col></Row></Row></>
   )
 }
 
