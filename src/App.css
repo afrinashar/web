@@ -45,7 +45,25 @@ background: linear-gradient(90deg, rgba(250,104,0,1) 0%, rgba(250,104,0,1) 33%, 
     transform: rotate(360deg);
   }
 }
-
+@media (max-width: 900px) {
+  .logo{
+     width: 100px;
+  }
+ p{
+  font-size: xx-small;
+  
+ }.grad{
+    height: 2px;
+    margin: 5;
+  }
+ h1,h1,h3,h4,h5,h6,li,a ,span,img{
+  font-size:0.5rem !important;
+  
+ 
+}
+span,img{
+  width: 15rem;
+}
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;

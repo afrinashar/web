@@ -11,14 +11,22 @@ background-color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+ @media (max-width: 900px) {
+  .logo{
+    display: none;
+  }
+ h2,h3,h4{
+  color: aqua 
+ }
+}
+ ;
 a {
   font-weight: 500;
-  color: #ffc964;
+  color: #ffffff;
   text-decoration:#ffffff;
 }
 a:hover {
-  color: #f2d553;
+  color: #ffffff;
 }
 
 body {
