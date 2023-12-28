@@ -3,6 +3,7 @@
   margin: 0  ;
   padding:0;
   text-align: center;
+  text-decoration-color: #ffffff;
 }
 
 
@@ -15,18 +16,18 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  border: solid #ffffff;
+   
   filter: drop-shadow(0 0 2em #ffffffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #008812aa);
+  filter: drop-shadow(0 0 2em #ffffffaa);
 }
 h:hover{
 border-bottom: #ff6600;
 }
 .grad{
   height: 9px;
- 
+ margin: 20px;
   background: rgb(36,53,173);
 background: linear-gradient(90deg, rgba(250,104,0,1) 0%, rgba(250,104,0,1) 33%, rgba(255,255,255,0.2945553221288515) 51%, rgba(0,19,159,1) 65%);
  }
@@ -57,5 +58,5 @@ background: linear-gradient(90deg, rgba(250,104,0,1) 0%, rgba(250,104,0,1) 33%, 
 }
 
 .read-the-docs {
-  color: #888;
+  color: #ffffff;
 }

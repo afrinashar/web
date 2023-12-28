@@ -4,13 +4,13 @@ import { Col, Row,Card, Button } from "react-bootstrap"
 
 const LeaderShip = () => {
   return (
-   <>   <Row><Row><h2>Meet the leaders leading Edstem</h2>Success at Edstem is driven by a team of accomplished leaders. Learn more about the individuals lighting our path <Row><Col> <Card style={{ width: '18rem' }}>
+   <>   <Row  className="text-secondary" ><Row><h2>Meet the leaders leading Edstem</h2>Success at Edstem is driven by a team of accomplished leaders. Learn more about the individuals lighting our path <Row><Col> <Card style={{ width: '18rem' }}>
    <Card.Img variant="top" src="holder.js/100px180" />
    <Card.Body>
      <Card.Title>Card Title</Card.Title>
      <Card.Text>
-       Some quick example text to build on the card title and make up the
-       bulk of the card's content.
+      { `Some quick example text to build on the card title and make up the
+       bulk of the card's content.`}
      </Card.Text>
      
    </Card.Body>
@@ -19,8 +19,8 @@ const LeaderShip = () => {
    <Card.Body>
      <Card.Title>Card Title</Card.Title>
      <Card.Text>
-       Some quick example text to build on the card title and make up the
-       bulk of the card's content.
+      {` Some quick example text to build on the card title and make up the
+       bulk of the card's content.`}
      </Card.Text>
      
    </Card.Body>

@@ -1,5 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import img from "../../../assets/img.png.svg";
+import { LiaAwardSolid } from "react-icons/lia";
+import { GiLifeBar } from "react-icons/gi";
+import { GrInProgress } from "react-icons/gr";
+import { FaComputer } from "react-icons/fa6";
+import { GiThreeLeaves } from "react-icons/gi";
+import { SiNintendogamecube } from "react-icons/si";
 
 const WorkWithUs = () => {
   return (
@@ -10,8 +16,9 @@ const WorkWithUs = () => {
         </Row>
         <Row>
           <h1>Life at SSINTEK</h1>
+          <div className="grad"></div>
           <p>
-            We're a bunch of enthusiastic, focused people with deep-rooted
+           {` We're a bunch of enthusiastic, focused people with deep-rooted
             passion for our work, driven by a shared vision of success. At
             Edstem, we prioritise employee experience and wellbeing by nurturing
             a workplace that is inclusive and respectful. We let them explore
@@ -22,43 +29,49 @@ const WorkWithUs = () => {
             and guidance when needed to strike a balance between user needs and
             business goals. We expect that as each Edstemite evolves into the
             technologist they want to be, they will be delivering exceptional
-            value to the clients along the way.
+            value to the clients along the way.`}
           </p>
         </Row>
         <Row>
           <Row className=" box">
             {" "}
             <h1>Benifits of working in SSINTEK</h1>
+       
           </Row>
           <div className="h-5px md:h-9px lg:h- 12px  bg-primary "></div>
           <Row>
             <Col>
               <div className="p-3 mb-2 bg-gradient-primary text-white"> </div>
               <Col>
-                <img src={img}></img> Competitive compensation
+              <SiNintendogamecube />
+ Competitive compensation
               </Col>{" "}
               <Col>
-                <img src={img}></img> Rewards and Recognition
+              <LiaAwardSolid /> Rewards and Recognition
               </Col>{" "}
               <Col>
-                <img src={img}></img>Avariety of wellness programs
+              <GrInProgress />
+Avariety of wellness programs
               </Col>{" "}
             </Col>{" "}
             <Col>
               <Col>
-                <img src={img}></img> insurence
+               <GiThreeLeaves />   insurence
               </Col>{" "}
               <Col>
-                <img src={img}></img>Work-life balance
+              
+<GiLifeBar />Work-life balance
               </Col>{" "}
               <Col>
-                <img src={img}></img> Learning & Development
+              <FaComputer />
+  Learning & Development
               </Col>{" "}
             </Col>
           </Row>
         </Row>
         <Row>
           <h1>Inclusion ,Diversity & Equality</h1>
+          <div className="grad"></div>
           <p>
             Embrace diversity, equality, and inclusion at Edstem Technologies
             for a workplace where innovation flourishes

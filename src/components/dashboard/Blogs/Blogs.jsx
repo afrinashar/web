@@ -2,9 +2,7 @@
 
 const Blogs = () => {
   return (
-    <div>
-      
-    </div>
+   <><div className="grad"></div></>
   )
 }
 

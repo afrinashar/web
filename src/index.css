@@ -15,7 +15,7 @@ background-color: #000000;
 a {
   font-weight: 500;
   color: #ffc964;
-  text-decoration: inherit;
+  text-decoration:#ffffff;
 }
 a:hover {
   color: #f2d553;
@@ -32,8 +32,12 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
 
+}
+h1:hover {
+  border-bottom: #ff5100 solid ;
+  color: #ff5100;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;

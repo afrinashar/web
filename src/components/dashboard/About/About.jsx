@@ -2,9 +2,7 @@
 
 const About = () => {
   return (
-    <div>
-      
-    </div>
+    <><div className="grad"></div></>
   )
 }
 
