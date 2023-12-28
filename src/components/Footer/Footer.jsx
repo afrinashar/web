@@ -1,6 +1,6 @@
 import { Container, Navbar, Row, Col } from "react-bootstrap";
-import logo from "../../assets/footer.PNG";
-import fb from "../../assets/fb.PNG";
+import logo from "../../assets/footer.png";
+//import fb from "../../assets/fb.PNG";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
