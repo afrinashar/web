@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 
-import logo from "../../assets/logo.PNG";
+//import logo from "../../assets/logo.PNG";
 import {
   Navbar,
   NavDropdown,
