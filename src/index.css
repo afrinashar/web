@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-background-color: #000000;
+background-color: #ffffff;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   
@@ -43,8 +43,8 @@ h1 {
 
 }
 h1:hover {
-  border-bottom: #ff5100 solid ;
-  color: #ff5100;
+  border-bottom: #000cb4 solid ;
+  color: #0400ff;
 }
 button {
   border-radius: 8px;

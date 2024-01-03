@@ -1,19 +1,27 @@
 /* eslint-disable react/jsx-no-undef */
 
  import logo from "../../assets/logo.png";
+ import { useState } from "react";
 import {
   Navbar,
   NavDropdown,
   Nav,
   Container,
   Row,
+  Col,
   Button,
+  Offcanvas,
+  Card,
 } from "react-bootstrap";
 const Header = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <>
       {" "}
-      <Navbar expand="lg" data-bs-theme="dark" className=" nav   top-0  ">
+      <Navbar expand="lg" data-bs-theme="dark"  style={{zIndex:"1050"}}className="  bg-dark nav    z-index-1050 top-0  ">
         <Container className="nav nav-pills nav-justified">
           <Navbar.Brand className=" " href="#home">
             {" "}
@@ -37,15 +45,28 @@ const Header = () => {
                     
                    
                 </NavDropdown> 
-                <Nav.Link href="services" > 
+            
+                <NavDropdown onClick={handleShow}  className="  mt-2 text-secondary " title="What we do " id="basic-nav-dropdown">
                    {/* <NavDropdown title="SERVICES" id="basic-nav-dropdown">
                   <Row></Row>
                   <Row></Row>
-                </NavDropdown> */}
+                </NavDropdown> 
                  <Button  variant="outline-primary border-0">
                     <span className="text-secondary">SERVICES</span>
-                  </Button>
-                </Nav.Link  >
+                  </Button>*/}
+    
+ <Offcanvas show={show}   style={{marginTop:"120px" }} className=" bg-primary" placement= "top" onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </Offcanvas.Body>
+      </Offcanvas>
+     
+                  </NavDropdown>
+           
                 <Nav.Link href="careers">
                   <Button variant="outline-primary border-0">
                     <span className="text-secondary">WORK WITH US </span>

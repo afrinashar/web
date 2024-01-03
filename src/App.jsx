@@ -7,7 +7,7 @@ import LeaderShip from './components/dashboard/About/LeaderShip'
 import NewsRoom from './components/dashboard/About/NewsRoom'
 import Blogs from './components/dashboard/Blogs/Blogs'
 import ContactUs from './components/dashboard/ContactUs/ContactUs'
-import ItConsulting from './components/dashboard/WorkWithUs/Services/ItConsulting'
+import Service from './components/dashboard/Services/Service'
 import Services from './components/dashboard/Services/Services'
 import WorkWithUs from './components/dashboard/WorkWithUs/WorkWithUs'
 import Dashboard from './Dashboard';
@@ -26,7 +26,7 @@ function App() {
       <Route exact path="/newsroom"  element={<NewsRoom/>} />  
       <Route exact path="/blogs"  element={<Blogs/>} />  
       <Route exact path="/contactus"  element={<ContactUs/>} />   
-      <Route exact path="/servicIIes"  element={<ItConsulting/>} />  
+      <Route exact path="/service"  element={<Service/>} />  
       <Route exact path="/services"  element={<Services/>} />  
       <Route exact path="/careers"  element={<WorkWithUs/>} />  
       <Route exact path="/events"  element={<Events/>} /> 
