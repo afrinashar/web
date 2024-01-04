@@ -67,19 +67,19 @@ const Header = () => {
      
                   </NavDropdown>
            
-                <Nav.Link href="careers">
+                <Nav.Link href="/careers">
                   <Button variant="outline-primary border-0">
                     <span className="text-secondary">WORK WITH US </span>
                   </Button>
                 </Nav.Link>
-                <Nav.Link href="events">
+                <Nav.Link href="/events">
                 <Button variant="outline-primary border-0">
                   <span className="text-secondary"> EVENTS</span></Button>
                </Nav.Link>
-               <Nav.Link href="blogs"><Button href="blogs" variant="outline-primary border-0">
+               <Nav.Link href="/blogs"><Button href="/blogs" variant="outline-primary border-0">
                   <span className="text-secondary"> BLOGS </span>
                 </Button></Nav.Link>
-                <Nav.Link href="contactus"><Button className="bg-primary  text-secondary text-bold border border-secondary">
+                <Nav.Link href="/contactus"><Button className="bg-primary  text-secondary text-bold border border-secondary">
                   CONTACT US
                 </Button> </Nav.Link>
               </Nav>

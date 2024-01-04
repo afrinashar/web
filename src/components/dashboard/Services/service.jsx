@@ -1,43 +1,73 @@
 import { FaLinkedin } from "react-icons/fa";
-import {Card,Row,Col,Button} from 'react-bootstrap'
+import { FaReact } from "react-icons/fa";
+
+import { Card, Row, Col,NavLink,Nav, Button } from "react-bootstrap";
+import { TiArrowRightOutline } from "react-icons/ti";
+import "./service.css";
 const Service = () => {
   return (
     <>
-  
-  <Row className="text-secondary p-5 d-flex justify-content-around">
+      <Row className="text-secondary p-5 d-flex justify-content-around">
         <Row className="d-flex justify-content-around">
           <h1 className="m-3"> What we do </h1>
           <div className="grad"></div>
-         
+
           <Row>
-          <Col className="d-flex flex-row ">
-        
-             
-          <Card style={{ }}className="bg-dark text-white">
-      <Card.Img className="hover-shadow" src="https://imgs.search.brave.com/K9c3EndrHhoFJ7rWL4ps-0X0BRzg9YLyzUg10Q7lw8Q/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5naXRlbS5jb20v/cGltZ3MvbS82NjQt/NjY0NDUwOV9pY29u/LXJlYWN0LWpzLWxv/Z28taGQtcG5nLWRv/d25sb2FkLnBuZw" alt="Card image" />
-      <Card.ImgOverlay className="  d-flex justify-content-end align-items-end ">
-        <Card.Title  className="bg-primary">more</Card.Title>
-        
-      </Card.ImgOverlay>
-    </Card>   
-           
-   
-            <Card style={{ width: "18rem" , margin:"10px" }}>
-              <Card.Img variant="top" className="card-img" src="https://imgs.search.brave.com/4vHckm2KWSwFzqTROwpxbsMEV3j2pRgittnYeCZAC2k/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9HZXR0/eUltYWdlcy01MTIz/MDQ3MzYuanBnP3Jl/c2l6ZT05ODA6Kg" />
-              <Card.Body>
-                <Card.Title>MARK MA</Card.Title>
-                <Card.Text>
-                  Human Resourse
-                </Card.Text>
-                <FaLinkedin  className="m-2"/>
-              </Card.Body>
-            </Card>
+            <Col className="d-flex flex-row ">
+            <div className=" card m-2 border border-secondary opacity-2">
+            
+       
+               <FaReact className="w-50  float-start " /> 
+ <Col><h6 className="float-end"> React JS Developer</h6></Col>
+
+                <p>
+                A JavaScript library for building user interfaces, particularly known for its component-based approach and virtual DOM...
+                </p> <Row>
+               <Col><a href="/service" className="text-primary">Read more...</a></Col> <Col><TiArrowRightOutline href="/services" className="p-2 float-end m-2 bg-primary border h-25 w-25" />
+               </Col> </Row>
+              </div>
+              
+              <div className=" m-2 border border-secondary opacity-2">
+            
+            <Card.ImgOverlay className="  d-flex justify-content-end align-items-end "></Card.ImgOverlay>{" "}
+            <TiArrowRightOutline href="/services" className="p-2 float-end m-2 bg-primary border h-25 w-25" />
+            <h2 className="hov">Cloud infrastructure</h2>{" "}
+            <p>
+              Leverage hybrid cloud or reinvent your networks and workplace
+              experience to accelerate value across the cloud...
+            </p>
+          </div> 
+           <div className=" m-2 border border-secondary opacity-2">
+            
+            <Card.ImgOverlay className="  d-flex justify-content-end align-items-end "></Card.ImgOverlay>{" "}
+            <TiArrowRightOutline href="/services" className="p-2 float-end m-2 bg-primary border h-25 w-25" />
+            <h2 className="hov">Cloud infrastructure</h2>{" "}
+            <p>
+              Leverage hybrid cloud or reinvent your networks and workplace
+              experience to accelerate value across the cloud...
+            </p>
+          </div>
+              
             </Col>
           </Row>
         </Row>
-        
-      </Row></>
-  )
-}
+      </Row>
+       
+             
+              <div className="card   m-5  bg-dark  text-secondary    rounded">
+                <div className="card-body">
+                  <div className="card-title ">
+                    <h5 className="text-decoration-none">
+                       Dev Days - March 2022. Developer conference at Monsoon
+                      Empress Kochi
+                    </h5> 
+                  </div>
+                </div>
+                <div className="card-footer"> <p>25 March, 2023</p></div>
+              </div>
+            
+    </>
+  );
+};
 
-export default Service
+export default Service;

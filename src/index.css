@@ -15,15 +15,15 @@ background-color: #ffffff;
   .logo{
     display: none;
   }
- h2,h3,h4{
-  color: aqua 
- }
+
 }
- ;
+ ;  .hov>h2:hover{
+    color: #ff6600;
+  }
 a {
   font-weight: 500;
   color: #ffffff;
-  text-decoration:#ffffff;
+  text-decoration:none;
 }
 a:hover {
   color: #ffffff;

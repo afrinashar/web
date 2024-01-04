@@ -6,8 +6,16 @@
   text-decoration-color: #ffffff;
 }
 
-
-
+  h2:hover{
+  color: #73ff00;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+ a:hover {
+  color: #ff6600;
+}
 .logo {
   
   width: 10rem;
@@ -89,4 +97,13 @@ span,img{
   height: 100%;
   transform: scale(0);
   transition: .3s ease;
+}
+
+ 
+h6{
+  color: rgb(91, 160, 0);
+  
+}
+h6 :hover {
+  color: blue;
 }

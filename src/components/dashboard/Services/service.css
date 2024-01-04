@@ -1,0 +1,10 @@
+ h2.hov:hover{
+    color: rgb(0, 255, 64)!important;
+}
+h2.hov :hover{
+    background-color: blue  ;
+}
+h2:hover{
+    color: blueviolet;
+    background-color: aqua;
+}
