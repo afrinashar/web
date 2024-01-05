@@ -23,7 +23,7 @@ const Service = () => {
                 <p>
                 A JavaScript library for building user interfaces, particularly known for its component-based approach and virtual DOM...
                 </p> <Row>
-               <Col><a href="/service" className="text-primary">Read more...</a></Col> <Col><TiArrowRightOutline href="/services" className="p-2 float-end m-2 bg-primary border h-25 w-25" />
+               <Col><Link href="/service" className="text-primary">Read more...</Link></Col> <Col><TiArrowRightOutline href="/services" className="p-2 float-end m-2 bg-primary border h-25 w-25" />
                </Col> </Row>
               </div>
               

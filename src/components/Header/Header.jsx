@@ -34,18 +34,14 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <NavDropdown className=" mt-2 text-secondary " title="ABOUT" id="basic-nav-dropdown">
-              <Nav.Link  className="border border-secondary  " href="aboutus">
-                      ABOUT US 
+               <Nav.Link  className="   " href="/">
+                               <Button href="/" variant="outline-primary border-0">
+                  <span className="text-secondary">    ABOUT US </span>
+                </Button>
+             
                      </Nav.Link>
-                      <Nav.Link className="border border-secondary  " href="leadership">
-                      LEADERSHIP  </Nav.Link>
-                       <Nav.Link className="border border-secondary  " href="newsroom" >
-                       NEWSROOM</Nav.Link>
-                    
-                   
-                </NavDropdown> 
-            
+                       
+          
                 <NavDropdown onClick={handleShow}  className="  mt-2 text-secondary " title="What we do " id="basic-nav-dropdown">
                    {/* <NavDropdown title="SERVICES" id="basic-nav-dropdown">
                   <Row></Row>
