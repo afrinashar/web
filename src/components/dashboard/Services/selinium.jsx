@@ -1,5 +1,5 @@
 import { Col, Container,Row } from 'react-bootstrap'
-import selinium  from '../../../assets/ selinium.PNG'
+import selinium  from '../../../assets/selinium.PNG'
 const Selinium = () => {
  return (
    <><Container className='text-secondary'><Row><h1>Selinium Developer</h1><div className='grad'></div></Row>

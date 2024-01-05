@@ -15,7 +15,7 @@ const Footer = () => {
               {" "}
               <div className="flex justify-center      ">
                 {" "}
-                <img className="w-25 logo m-5" src={logo}></img>
+                <img className="w-50 logo m-5" src={logo}></img>
               </div>
             </Row>
             <Row>

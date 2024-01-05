@@ -1,5 +1,5 @@
 import { Col, Container,Row } from 'react-bootstrap'
-import sql from '../../../assets/ba.PNG'
+import sql from '../../../assets/sql.PNG'
 const Analyst = () => {
  return (
    <><Container className='text-secondary'><Row><h1>Technical Bussiness Analyst</h1><div className='grad'></div></Row>

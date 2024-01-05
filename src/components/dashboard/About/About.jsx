@@ -3,12 +3,26 @@ import { IoLogoTwitter } from "react-icons/io5";
 import { IoLogoFlickr } from "react-icons/io5";
 import { IoLogoApple } from "react-icons/io";
 import { IoLogoSkype } from "react-icons/io";
+import video from '../..//../assets/video.mp4'
+import Typewriter from "typewriter-effect";
 const About = () => {
   return (
-    <>
+    <>  
+    <h3 className="grids">our commitments</h3>
+       <div>   <video  className ="fluid w-100 opacity-100"src={video} autoPlay loop muted fluid/>
+<Typewriter
+className="mb-5"
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("GeeksForGeeks")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Welcomes You")
+                        .start();
+                }}
+            /></div>
       <Container className="text-secondary p-5">
         <Row className=" m-5 p-2">
-          {" "}
           <h3>The Beginning and The Growth</h3>
           <div className="grad"></div>
           <Col>

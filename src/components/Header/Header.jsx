@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
       {" "}
-      <Navbar expand="lg" data-bs-theme="dark"  style={{zIndex:"1050"}}className="  bg-dark nav    z-index-1050 top-0  ">
+      <Navbar expand="lg"   style={{zIndex:"1050"}}className="    nav    z-index-1050 top-0  ">
         <Container className="nav nav-pills nav-justified">
           <Navbar.Brand className=" " href="#home">
             {" "}
@@ -43,13 +43,18 @@ const Header = () => {
                        
           
                 <NavDropdown onClick={handleShow}  className="  mt-2 text-secondary " title="What we do " id="basic-nav-dropdown">
-                   {/* <NavDropdown title="SERVICES" id="basic-nav-dropdown">
+                 
+                  <Row> <Nav.Link  className="   " href="/">
+                               <Button href="/" variant="outline-primary border-0">
+                  <span className="text-secondary">    ABOUT US </span>
+                </Button>
+             
+                     </Nav.Link></Row>
                   <Row></Row>
-                  <Row></Row>
-                </NavDropdown> 
+            
                  <Button  variant="outline-primary border-0">
                     <span className="text-secondary">SERVICES</span>
-                  </Button>*/}
+                  </Button> 
     
  <Offcanvas show={show}   style={{marginTop:"120px" }} className=" bg-primary" placement= "top" onHide={handleClose}>
         <Offcanvas.Header closeButton>
@@ -68,13 +73,7 @@ const Header = () => {
                     <span className="text-secondary">WORK WITH US </span>
                   </Button>
                 </Nav.Link>
-                <Nav.Link href="/events">
-                <Button variant="outline-primary border-0">
-                  <span className="text-secondary"> EVENTS</span></Button>
-               </Nav.Link>
-               <Nav.Link href="/blogs"><Button href="/blogs" variant="outline-primary border-0">
-                  <span className="text-secondary"> BLOGS </span>
-                </Button></Nav.Link>
+                
                 <Nav.Link href="/contactus"><Button className="bg-primary  text-secondary text-bold border border-secondary">
                   CONTACT US
                 </Button> </Nav.Link>

@@ -32,7 +32,7 @@ function App() {
  <Header></Header>
  
       <Routes>
-      <Route exact path="/aboutus"  element={<About/>} />  
+      <Route exact path="/"  element={<About/>} />  
       <Route exact path="/leadership"  element={<LeaderShip/>} />  
       <Route exact path="/newsroom"  element={<NewsRoom/>} />  
       <Route exact path="/blogs"  element={<Blogs/>} />  
