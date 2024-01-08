@@ -21,64 +21,23 @@ const Header = () => {
   return (
     <>
       {" "}
-      <Navbar expand="lg"   style={{zIndex:"1050"}}className="    nav    z-index-1050 top-0  ">
+      <Navbar expand="lg"   style ={{zIndex:"1050"}}className="    nav    z-index-1050 top-0  ">
         <Container className="nav nav-pills nav-justified">
-          <Navbar.Brand className=" " href="#home">
-            {" "}
-            <div className=" w-10">
-              <img src={logo} className=" logo"></img>{" "}
-            </div>
-          </Navbar.Brand>
+        <img src={logo} className=" logo"></img>  
           <div className=" ">
-           
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-               <Nav.Link  className="   " href="/">
-                               <Button href="/" variant="outline-primary border-0">
-                  <span className="text-secondary">    ABOUT US </span>
-                </Button>
-             
-                     </Nav.Link>
-                       
-          
-                <NavDropdown onClick={handleShow}  className="  mt-2 text-secondary " title="What we do " id="basic-nav-dropdown">
-                 
-                  <Row> <Nav.Link  className="   " href="/">
-                               <Button href="/" variant="outline-primary border-0">
-                  <span className="text-secondary">    ABOUT US </span>
-                </Button>
-             
-                     </Nav.Link></Row>
-                  <Row></Row>
-            
-                 <Button  variant="outline-primary border-0">
-                    <span className="text-secondary">SERVICES</span>
-                  </Button> 
-    
- <Offcanvas show={show}   style={{marginTop:"120px" }} className=" bg-primary" placement= "top" onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
-        </Offcanvas.Body>
-      </Offcanvas>
-     
-                  </NavDropdown>
-           
-                <Nav.Link href="/careers">
-                  <Button variant="outline-primary border-0">
-                    <span className="text-secondary">WORK WITH US </span>
-                  </Button>
-                </Nav.Link>
-                
-                <Nav.Link href="/contactus"><Button className="bg-primary  text-secondary text-bold border border-secondary">
-                  CONTACT US
-                </Button> </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
+          <div class="navbar-nav">
+        <a class="nav-link  " aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </div>
+            <ul className="underline">
+
+              <li><a className="underline">About Us</a></li>
+              <li><a className="underline">Services</a></li>
+              <li><a>Work with Us</a></li>
+              <li><button>Contact Us</button></li>
+            </ul>
           </div>
         </Container>
       </Navbar>

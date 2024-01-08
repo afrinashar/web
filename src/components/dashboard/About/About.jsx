@@ -8,8 +8,7 @@ import Typewriter from "typewriter-effect";
 const About = () => {
   return (
     <>  
-    <h3 className="grids">our commitments</h3>
-       <div>   <video  className ="fluid w-100 opacity-100"src={video} autoPlay loop muted fluid/>
+        <div>   <video  className ="fluid w-100 opacity-100"src={video} autoPlay loop muted fluid/>
 <Typewriter
 className="mb-5"
                 onInit={(typewriter) => {

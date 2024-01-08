@@ -18,8 +18,8 @@ a {
 }
 .logo {
   
-  width: 10rem;
-  padding: 1.5em;
+  width: 5rem;
+  padding: 1rem;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -109,4 +109,7 @@ h6 :hover {
 }
 .grids h3{
   color: #293df5;
+}
+.underline{
+  background-color: #29f544;
 }
