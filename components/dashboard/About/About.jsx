@@ -1,15 +1,16 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, CardImgOverlay } from "react-bootstrap";
 import { IoLogoTwitter } from "react-icons/io5";
 import { IoLogoFlickr } from "react-icons/io5";
 import { IoLogoApple } from "react-icons/io";
 import { IoLogoSkype } from "react-icons/io";
 import video from '../..//../assets/video.mp4'
 import Typewriter from "typewriter-effect";
+import talent from '../../../assets/talent.webp'
 const About = () => {
   return (
     <>  
     <h3 className="grids">our commitments</h3>
-       <div>   <video  className ="fluid w-100 opacity-100"src={video} autoPlay loop muted fluid/>
+       {/* <div>   <video  className ="fluid w-100 opacity-100"src={video} autoPlay loop muted fluid/>
 <Typewriter
 className="mb-5"
                 onInit={(typewriter) => {
@@ -20,31 +21,25 @@ className="mb-5"
                         .typeString("Welcomes You")
                         .start();
                 }}
-            /></div>
+            /></div> */}
       <Container className="text-secondary p-5">
         <Row className=" m-5 p-2">
           <h3>The Beginning and The Growth</h3>
           <div className="grad"></div>
+        
           <Col>
+          <img src="https://imgs.search.brave.com/oG1HVYkTn6BoXHC2LmkV0CGQA42C6vw7HEIlotJkBCg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by95b3VuZy1idXNp/bmVzcy1wZW9wbGUt/c2l0dGluZy1tZWV0/aW5nLXRhYmxlLWNv/bmZlcmVuY2Utcm9v/bS1kaXNjdXNzaW5n/LXdvcmstcGxhbm5p/bmctc3RyYXRlZ3lf/NTIxMzctMzU1NTIu/anBnP3NpemU9NjI2/JmV4dD1qcGc"></img></Col>xx  <Col>
             <p>
-              Edstem was founded by K K Ashraf and Jerrish Varghese in 2012
-              primarily for developing products in education domain. The initial
-              experience with schools in Middle East, research and study, and
-              that hub of expertise transformed into a small consulting group
-              and led us to create some of our first school management
-              softwares. Later, we shifted our focus to both product as well as
-              custom software development. In 2015 the team size crossed 10
-              members and we were able to launch new products in to the market
-              for schools. <br />{" "}
+            SSINTEK is the emerging software services company, which provides end-to-end business solutions that leverage technology. We provide solutions for a dynamic environment where business and technology strategies converge. Our approach focuses on new ways of business combining IT innovation and adoption while also leveraging an organization's current IT assets. We work with large global corporations and new generation technology companies to build new products and services and to implement prudent business and technology strategies in today's dynamic digital age. <br />{" "}
               <button className="btn btn-primary m-2 text-secondary "> Meet our Team </button> 
             </p>
           </Col>
-          <Col><img src="https://imgs.search.brave.com/oG1HVYkTn6BoXHC2LmkV0CGQA42C6vw7HEIlotJkBCg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by95b3VuZy1idXNp/bmVzcy1wZW9wbGUt/c2l0dGluZy1tZWV0/aW5nLXRhYmxlLWNv/bmZlcmVuY2Utcm9v/bS1kaXNjdXNzaW5n/LXdvcmstcGxhbm5p/bmctc3RyYXRlZ3lf/NTIxMzctMzU1NTIu/anBnP3NpemU9NjI2/JmV4dD1qcGc"></img></Col>
+    
         </Row>
         <Row className=" m-5 p-2">
           <h2>Who we are</h2>
           <p>
-            Unlock a world of advantages when you choose Edstem for software
+            Unlock a world of advantages when you choose  SSINTEK for software
             ideation and delivery
           </p>
           <Col>
@@ -131,6 +126,8 @@ className="mb-5"
 
 <h4>for Your Tech Needs</h4></h3></Col><Col>Ready to get a clear picture of the investment needed for our top-notch tech services? Simply fill out our quote request form, and our team will provide you with a personalized qu
 ote.</Col><Col><button className="btn btn-light">Contact Us</button></Col></Row>
+
+<Row>  <div className="mt-2" xs={12} sm={6} md={4}><div className="card"> <img src={talent}></img><CardImgOverlay></CardImgOverlay></div></div></Row>
       </Container>
     </>
   );

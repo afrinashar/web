@@ -1,7 +1,7 @@
  
  
- h2.hov:hover{
-    color: rgb(0, 255, 64)!important;
+.hov:hover{
+    color: rgb(255, 136, 0)!important;
 }
 h2.hov :hover{
     background-color: blue  ;
@@ -17,12 +17,9 @@ h2:hover{
     display: block;
 }
 
-.container .card  {
-    background-image: url("../..//../assets/reactbg.jpeg");
-      /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
-    background-repeat: no-repeat;
-width: fit-content;}
+.slide2{
+opacity: 0;}
+ 
  .slide2{
 opacity: 0;
  }
@@ -139,7 +136,7 @@ opacity: 100;
 
     transform: translateX(-50%);
 
-    background: #ff5100;
+     
 
 }
 
@@ -167,4 +164,88 @@ opacity: 100;
 
     color: #ffffff;
 
-} 
+}
+.node{ background: rgb(123, 247, 65);
+    background: linear-gradient(45deg, rgb(116, 207, 73) 0%, rgb(89, 206, 35) 20%, rgba(0,0,0,1) 100%);
+   
+width: fit-content;}
+.node:hover{
+    background: rgb(50, 114, 20);
+    
+}
+.react{ background: rgb(65, 150, 247);
+    background: linear-gradient(45deg, rgb(73, 147, 207) 0%, rgb(35, 186, 206) 20%, rgba(0,0,0,1) 100%);
+   
+width: fit-content;}
+.react:hover{
+    background: rgb(17, 146, 197);
+    
+}
+.aws{ background: rgb(247, 220, 65);
+    background: linear-gradient(45deg, rgb(253, 183, 78) 0%, rgb(255, 183, 28) 20%, rgba(0,0,0,1) 100%);
+   
+width: fit-content;}
+.aws:hover{
+    background: rgb(221, 144, 0);
+    
+}
+.python{ background: rgb(235, 247, 65);
+    background: linear-gradient(45deg, rgb(252, 234, 78) 0%, rgb(231, 228, 39) 20%, rgba(0,0,0,1) 100%);
+   
+width: fit-content;}
+.python:hover{
+    background: rgb(198, 201, 22);
+    
+}
+.java{ background: rgb(204, 207, 240);
+    background: linear-gradient(45deg, rgb(23, 39, 255) 0%, rgb(0, 60, 255) 20%, rgba(0,0,0,1) 100%);
+   
+width: fit-content;}
+.java:hover{
+    background: rgb(0, 26, 255);
+    
+}
+/* .java{  background-image: url("../..//../assets/service/web1.jpg");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px);  
+width: fit-content;}
+.react{  background-image: url("../..//../assets/service/web.jpeg");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px);  
+  background-repeat: no-repeat;
+width: fit-content;}
+.aws{  background-image: url("../..//../assets/service/web3.webp");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px);  
+  background-repeat: no-repeat;
+width: fit-content;}
+.nde{  background-image: url("../..//../assets/service/web4.jpg");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px);  
+  background-repeat: no-repeat;
+width: fit-content;}
+.python{  background-image: url("../..//../assets/service/web5.webp");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); 
+  background-repeat: no-repeat;
+width: fit-content;}
+.aws{  background-image: url("../..//../assets/service/web6.webp");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); 
+  background-repeat: no-repeat;
+width: fit-content;}
+.aws{  background-image: url("../..//../assets/service/web7.webp");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px);  
+  background-repeat: no-repeat;
+width: fit-content;}
+.aws{  background-image: url("../..//../assets/service/web8.webp");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); 
+  background-repeat: no-repeat;
+width: fit-content;}
+.aws{  background-image: url("../..//../assets/service/web9.webp");
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); 
+  background-repeat: no-repeat;
+width: fit-content;} */

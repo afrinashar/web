@@ -1,4 +1,4 @@
-import { Col, Container,Row } from 'react-bootstrap'
+  import { Col, Container,Row } from 'react-bootstrap'
 import analyst from '../../../assets/ba.JPG'
 const Analyst = () => {
  return (

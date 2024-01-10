@@ -30,7 +30,7 @@ function App() {
   return (
     <>
  <Header></Header>
- 
+ <Dashboard></Dashboard>
       <Routes>
       <Route exact path="/"  element={<About/>} />  
       <Route exact path="/leadership"  element={<LeaderShip/>} />  

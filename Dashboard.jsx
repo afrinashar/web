@@ -3,8 +3,8 @@ import Header from './components/Header/Header';
 
 const Dashboard = () => {
   return (
- <>  
-          <h1>app</h1> <Footer /></>
+ <></> 
+         
   )
 }
 

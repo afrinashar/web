@@ -37,7 +37,7 @@ const Services = () => {
           <h3>Explore Our Comprehensive IT Consulting Services</h3>
           <div className="grad"></div>
           <p>
-            Partner with Edstem Technologies and unlock the full potential of
+            Partner with  SSINTEK Technologies and unlock the full potential of
             your IT infrastructure. Our team of experienced IT consultants will
             guide you every step of the way, providing comprehensive solutions
             tailored to your specific business needs. We'll help you:
@@ -96,7 +96,7 @@ IT Operations Consulting</h6>
         <Row className=" m-5 p-2">
           <h3>Technologies We Use</h3>
           <p>
-            At Edstem, we leverage a sophisticated tech stack, cutting-edge
+            At  SSINTEK, we leverage a sophisticated tech stack, cutting-edge
             programming languages, frameworks and cloud services to deliver
             innovative and scalable solutions tailored to meet the demands of
             the modern digital landscape.
