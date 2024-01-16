@@ -7,7 +7,7 @@ import LeaderShip from './components/dashboard/About/LeaderShip'
 import NewsRoom from './components/dashboard/About/NewsRoom'
 import Blogs from './components/dashboard/Blogs/Blogs'
 import ContactUs from './components/dashboard/ContactUs/ContactUs'
-import Service from './components/dashboard/Services/Service'
+import Service from './components/dashboard/Services/service'
 import Reactjs from './components/dashboard/Services/Reactjs';
 import Oracle from './components/dashboard/Services/Oracle';
 import Analyst  from './components/dashboard/Services/Analyst';
