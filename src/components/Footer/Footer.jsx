@@ -34,10 +34,9 @@ const Footer = () => {
                         D54, Second Floor 9A Cross Rd, <br />
                         Thillai Nagar, Thiruchirappalli <br /> Tamil Nadu - 620
                         018
-                      </p>{" "}
+                      </p> 
                       <a href="mailto:recruit@ssintek.com">
-                        {" "}
-                        recruit@ssintek.com
+                         recruit@ssintek.com
                       </a>
                       <br /> <a href="tel:+918667068319">+91 8667068319</a>
                     </div>
@@ -49,7 +48,7 @@ const Footer = () => {
               <Row>  <ul className="nav navbar-nav list-unstyled  text-secondary">
                   <li className="dropdown ">
                     <a className=" text-primary" href="about">
-                      {" "}
+                      
                       About
                     </a>
                     <ul className=" list-unstyled text-secondary">
@@ -94,13 +93,13 @@ const Footer = () => {
             
               <Col>
                 {" "}
-                <div className="head">
+                <div className="head float-end">
                   {/* <button className="logo contact float-right btn btn-primary text-secondary  p-3 rounded rounded-circl
      e border border-secondary contact   fixed-top  "> Contact Us</button> */}
                   <FaPhoneVolume
                     className="bg-primary  logo contact float-right btn btn-primary text-secondary
-    btn-orange   p-2 rounded rounded-circle
-     e border border-secondary contact   fixed-bottom"
+    btn-orange   mx-5 p-2 rounded rounded-circle
+     e border border-secondary contact  float-end  fixed-bottom"
                   />
                 </div>{" "}
               </Col>

@@ -29,8 +29,15 @@ className="mb-5"
                         .start();
                 }}
             /></div> */}
-
-<img src={about} className="w-100 "></img>
+<div className="  m-0">
+<img src={about} className="w-100 "></img> <CardImgOverlay className=" cards text-secondary">   <Row className=" m-5 p-2">
+          <h3>Our Vision</h3>
+          <div className="grad"></div><p>Be a valuable pa
+            rtner to our customers by providing the right solution.</p></Row>
+            <Row className=" m-5 p-2">
+          <h3>Our Mission</h3>
+          <div className="grad"></div><p>To develop perfectly engineered solutions that would put our customer's business on the cutting edge by delivering quality solutions on time, every time.</p></Row>
+     </CardImgOverlay></div>
 
       <Container className="text-secondary p-5">
         <Row className=" m-5 p-2">
@@ -57,15 +64,8 @@ className="mb-5"
             </p>
           </Col>
         </Row>
-        <Row className=" m-5 p-2">
-          <h3>Our Vision</h3>
-          <div className="grad"></div><p>Be a valuable pa
-            rtner to our customers by providing the right solution.</p></Row>
-            <Row className=" m-5 p-2">
-          <h3>Our Mission</h3>
-          <div className="grad"></div><p>To develop perfectly engineered solutions that would put our customer's business on the cutting edge by delivering quality solutions on time, every time.</p></Row>
-        <Row>
-          
+  <div className="overlay">      </div>  <Row>
+        
           {" "}
           <ul className="d-flex list-unstyled m-3 p-5 d-flex justify-content-around">
             {" "}
@@ -187,8 +187,8 @@ className="mb-5"
         </Row>
         <h1 className="text-primary gradient ">
           Our commitment
-          <br /> to clients,
-          <br /> communities and <br />
+           to clients,
+          <br /> communities and  
           each other
         </h1>
 
@@ -196,10 +196,10 @@ className="mb-5"
           <Row className="g-3 ">
              
           
-              <div className="card text-dark">
+              <div className="card cards m-5 w-25 h-50 logo text-secondary">
                 
                 <img src={talent}></img>
-                <CardImgOverlay>
+                <CardImgOverlay className="d-flex  flex-column justify-content-center align-items-center">
                   <h3>Talent</h3>
                   <p>
                     As a talent-led organization, we invest in our people and
@@ -210,12 +210,11 @@ className="mb-5"
                 </CardImgOverlay>
               </div>
            
-            <div className="col logo " xs={12}>
-              {" "}
-              <div className="card text-secondary">
+            
+              <div className="card cards m-5 w-25 h-50 logo fluid text-secondary">
                 {" "}
-                <img src={sustain}></img>
-                <CardImgOverlay>
+                <img src={sustain} className="fluid"></img>
+                <CardImgOverlay className="d-flex  flex-column justify-content-center align-items-center">
                   <h3>Sustainability</h3>{" "}
                   <p>
                     {" "}
@@ -226,16 +225,15 @@ className="mb-5"
                   </p>
                 </CardImgOverlay>
               </div>
-            </div>{" "}
-            <div className="col logo ">
-              {" "}
-              <div className="card text-secondary">
+         
+           
+              <div className="card cards m-5 w-25 h-50 logo text-secondary">
                 {" "}
                 <img src={diversity}></img>
-                <CardImgOverlay>
-                  <h3>Inclusion & Diversity</h3>{" "}
+                <CardImgOverlay className="d-flex  flex-column justify-content-center align-items-center">
+                  <h3>Inclusion & Diversity</h3> 
                   <p>
-                    {" "}
+                  
                     Inclusion and diversity are embedded in everything we do and
                     are key enablers of our business results. We believe they’re
                     essential for both accessing talent and unleashing
@@ -243,16 +241,15 @@ className="mb-5"
                   </p>
                 </CardImgOverlay>
               </div>
-            </div>{" "}
-            <div className="col logo ">
-              {" "}
-              <div className="card text-secondary">
+        
+           
+              <div className="card cards m-5 w-25 h-50 logo text-secondary">
                 {" "}
                 <img src={client}></img>
-                <CardImgOverlay>
-                  <h3>Client</h3>{" "}
-                  <p>
-                    {" "}
+                <CardImgOverlay className="d-flex  flex-column justify-content-center align-items-center">
+                  <h3>Client</h3> 
+                  <p className="cards">
+               
                     We work with many of the world’s leading companies and
                     governments to navigate change, seize opportunities and
                     transform them into thriving organizations and create
@@ -260,30 +257,28 @@ className="mb-5"
                   </p>
                 </CardImgOverlay>
               </div>
-            </div>{" "}
-            <div className="col logo ">
-              {" "}
-              <div className="card text-secondary">
+     
+       
+              <div className="card cards m-5  w-25 h-50 logo text-secondary">
                 {" "}
                 <img src={experience}></img>
-                <CardImgOverlay>
-                  <h3>Experience</h3>{" "}
+                <CardImgOverlay className="d-flex  flex-column justify-content-center align-items-center">
+                  <h3>Experience</h3> 
                   <p>
-                    {" "}
+        
                     Whether it’s for our people, our clients or ecosystem
                     partners, we strive to deliver on our enduring value
                     proposition while creating 360° value for our stakeholders.​
                   </p>
                 </CardImgOverlay>
               </div>
-            </div>{" "}
-            <div className="col  logo ">
+            
               {" "}
-              <div className="card text-secondary">
+              <div className="card m-5 cards w-25 h-50 logo text-secondary">
                 {" "}
                 <img src={finance}></img>
-                <CardImgOverlay>
-                  <h3>Finance</h3>{" "}
+                <CardImgOverlay className="d-flex  flex-column justify-content-center align-items-center">
+                  <h3>Finance</h3> 
                   <p>
                     Our strong financial performance, while continuing to invest
                     in our business and people, is a testament to our ability to
@@ -292,7 +287,7 @@ className="mb-5"
                   </p>
                 </CardImgOverlay>
               </div>
-            </div>
+           
           </Row>
 
           <Row className=" d-flex align-items-center m-5 p-4  bg-secondary text-light">

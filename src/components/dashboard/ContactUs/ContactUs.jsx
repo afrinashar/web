@@ -31,7 +31,7 @@ const ContactUs = () => {
               Ready to take the first step? Reach out to us via our contact
               form.{" "}
             </p>
-            <form className="row g-3">
+            <form className="row g-3" method="POST" action="mailto:organisers@event.com">
               <div className="col-md-6">
                 <label className="form-label">Name</label>
                 <input type="text" className="form-control" id="name" />
@@ -56,11 +56,12 @@ const ContactUs = () => {
                   id="inputEmail4"
                 />
               </div>
-              <button className="btn btn-primary sm" type="submit"> SUBMIT</button>
+              <input className="btn btn-primary sm" type="submit" value="Submit"/>
+              
             </form>
            </Col>
           </Row>
-          <Row className="border">
+          {/* <Row className="border">
             <h3>What next?</h3>
             <h6>First Touchpoint</h6>
             Our experts will initiate the process by conducting a primary
@@ -75,7 +76,7 @@ const ContactUs = () => {
             We will create a detailed project blueprint, providing you with the
             final project estimate and an actionable plan to propel the project
             forward.
-          </Row>
+          </Row> */}
         </Row>
       </Container>
     </>
