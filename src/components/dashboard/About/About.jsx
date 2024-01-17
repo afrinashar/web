@@ -17,6 +17,7 @@ import"./About.css"
 const About = () => {
   return (
     <>
+    
       {/* <div>   <video  className ="fluid w-100 opacity-100"src={video} autoPlay loop muted fluid/>
 <Typewriter
 className="mb-5"
