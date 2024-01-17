@@ -191,7 +191,6 @@ className="mb-5"
           <br /> communities and  
           each other
         </h1>
-
         <Container>
           <Row className="g-3 ">
              
