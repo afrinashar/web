@@ -1,19 +1,5 @@
-import { Container, Row, Col, CardImgOverlay } from "react-bootstrap";
-import { IoLogoTwitter } from "react-icons/io5";
-import { IoLogoFlickr } from "react-icons/io5";
-import { IoLogoApple } from "react-icons/io";
-import { IoLogoSkype } from "react-icons/io";
-import video from "../..//../assets/video.mp4";
-import about from "../..//../assets/about.JPEG";
- import { Link } from "react-router-dom";
-import talent from "../../../assets/talent.JPEG";
-import sustain from "../../../assets/sustain.JPEG";
-import client from "../../../assets/client.JPEG";
-import diversity from "../../../assets/diversity.JPEG";
-import experience from "../../../assets/experience.JPEG";
-import finance from "../../../assets/finance.webp";
-import CountUp from "react-countup";
-import"./About.css"
+ 
+
 const About = () => {
   return (
     <>
@@ -314,3 +300,8 @@ className="mb-5"
 };
 
 export default About;
+    <><div className="grad"></div></>
+  )
+}
+
+export default About
