@@ -7,21 +7,21 @@ import LeaderShip from './components/dashboard/About/LeaderShip'
 import NewsRoom from './components/dashboard/About/NewsRoom'
 import Blogs from './components/dashboard/Blogs/Blogs'
 import ContactUs from './components/dashboard/ContactUs/ContactUs'
-import Service from './components/dashboard/Services/service'
+import Service from './components/dashboard/Services/Service'
 import Reactjs from './components/dashboard/Services/Reactjs';
 import Oracle from './components/dashboard/Services/Oracle';
 import Analyst  from './components/dashboard/Services/Analyst';
-import Aws from './components/dashboard/Services/Aws';
+import Aws from './components/dashboard/Services/aws';
 import  Fullstack  from './components/dashboard/Services/Fullstack';
 import Dotnet from './components/dashboard/Services/Dotnet';
 import Hrms from './components/dashboard/Services/Hrms';
-import Java from './components/dashboard/Services/Java';
+import Java from './components/dashboard/Services/java';
 import Nodejs from './components/dashboard/Services/Node';
-import Python from './components/dashboard/Services/Python';
-import Selinium from './components/dashboard/Services/Selinium';
+import Python from './components/dashboard/Services/python';
+import Selinium from './components/dashboard/Services/selinium';
 import Sql from './components/dashboard/Services/sql'
 import WorkWithUs from './components/dashboard/WorkWithUs/WorkWithUs'
-//import Dashboard from './Dashboard';
+import Dashboard from './Dashboard';
 import Events from './components/dashboard/Events/Events';
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header';
@@ -30,7 +30,7 @@ function App() {
   return (
     <>
  <Header></Header>
- 
+ <Dashboard></Dashboard>
       <Routes>
       <Route exact path="/"  element={<About/>} />  
       <Route exact path="/leadership"  element={<LeaderShip/>} />  

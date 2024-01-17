@@ -1,6 +1,6 @@
 import { Container, Navbar, Row, Col } from "react-bootstrap";
-import logo from "../../assets/footer.png";
-//import fb from "../../assets/fb.PNG";
+import logo from "../../assets/footer.PNG";
+import fb from "../../assets/fb.PNG";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -15,7 +15,7 @@ const Footer = () => {
               {" "}
               <div className="flex justify-center      ">
                 {" "}
-                <img className="w-50 logo m-5" src={logo}></img>
+                <img className="w-25 logo " src={logo}></img>
               </div>
             </Row>
             <Row>
@@ -46,40 +46,33 @@ const Footer = () => {
                 </Col>
               </Col>{" "}
               <Col>
-                <ul   className="nav navbar-nav list-unstyled  text-secondary">
-                
-                  <li className="dropdown ">
+                <ul className="nav navbar-nav   text-secondary">
+                  <li className="active">
+                    <a href="#">Home</a>
+                  </li>
+                  <li className="dropdown">
                     <a className=" text-primary" href="about">
                       {" "}
                       About
                     </a>
-                    <ul className=" list-unstyled text-secondary">
-                    <span >  <li >
-                        <a className=" text-secondary" href="/aboutus">About Us</a>
+                    <ul className=" text-secondary">
+                      <li className=" text-secondary">
+                        <a href="/about">About</a>
                       </li>
                       <li>
-                        <a  className=" text-secondary" href="/leadership">Leadership</a>
+                        <a href="/leadership">Leadership</a>
                       </li>
                       <li>
-                        <a className=" text-secondary" href="/newsroom">Newsroom</a>
-                      </li></span>
+                        <a href="/newsroom">Newsroom</a>
+                      </li>
                     </ul>
-                  </li> 
-                   <li className="active mx-2">
-                    <a href="services">Services</a>
                   </li>
-                  <li className="active mx-2">
-                    <a href="careers">Work with us</a>
+                  <li>
+                    <a href="#">Page 2</a>
                   </li>
-                  <li className="active mx-2">
-                    <a href="events"> Events </a>
+                  <li>
+                    <a href="#">Page 3</a>
                   </li>
-                  <li className="active mx-2">
-                    <a href="blogs"> Blogs </a>
-                  </li>
-                  {/* <li className="active mx-2">
-                    <a href="contactus"> Contacts</a>
-                  </li> */}
                 </ul>
               </Col>
             </Row>
@@ -104,7 +97,7 @@ Newark, Delaware 19702 US`}</p>{" "}
               </Col>
             </Row>
             <Row className="text-muted">
-              <Col>© 2023 — SSINTEK All Rights Reserved</Col>
+              <Col>© 2023 — Edstem All Rights Reserved</Col>
               <Col>Privacy Policy</Col>
               <Col>Terms of Use</Col>
             </Row>

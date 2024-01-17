@@ -1,4 +1,5 @@
 #root {
+  color: #fff;
   background-color: rgb(0, 0, 0);
   margin: 0  ;
   padding:0;
@@ -18,8 +19,8 @@ a {
 }
 .logo {
   
-  width: 10rem;
-  padding: 1.5em;
+  width: 5rem;
+  padding: 1rem;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -35,7 +36,8 @@ border-bottom: #ff6600;
 }
 .grad{
   height: 9px;
- margin: 20px;
+ margin: 30px;
+ width: 80%;
   background: rgb(36,53,173);
 background: linear-gradient(90deg, rgba(250,104,0,1) 0%, rgba(250,104,0,1) 33%, rgba(255,255,255,0.2945553221288515) 51%, rgba(0,19,159,1) 65%);
  }
@@ -100,13 +102,44 @@ span,img{
 }
 
  
-h6{
-  color: rgb(91, 160, 0);
-  
-}
+ 
 h6 :hover {
-  color: blue;
+  color: rgb(255, 72, 0);
 }
 .grids h3{
-  color: #293df5;
+  color: #f56329;
+}
+.underline{
+  background-color: #f57b29;
+}
+.btn-orange {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 2%;
+  height: 5rem;
+  background: rgb(242,237,65);
+background: radial-gradient(circle, rgba(242,237,65,1) 0%,rgb(255, 145, 0) 30%, rgba(255,76,0,1) 100%);
+  color: #fff;
+  border: 7px solid #ffffff;
+}
+.contact{
+  width: fit-content;
+margin: 14px;
+   padding: 5px;
+  
+}
+.head{
+  
+}
+.btn-orange {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 2%;
+  height: 5rem;
+  background: rgb(242,237,65);
+background: radial-gradient(circle, rgba(242,237,65,1) 0%,rgb(255, 145, 0) 30%, rgba(255,76,0,1) 100%);
+  color: #fff;
+  border: 7px solid #ffffff;
 }
